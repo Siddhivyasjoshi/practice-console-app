@@ -1,0 +1,303 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\input{glyphtounicode}
+
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\centering
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+
+\pdfgentounicode=1
+
+\newcommand{\MYhref}[3][blue]{\href{#2}{\color{#1}{#3}}}%
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+
+
+\begin{center}
+    {\LARGE Himanshu Vinchhi} \\ \vspace{2pt}
+    \begin{multicols}{2}
+    \begin{flushleft}
+    \MYhref{https://www.linkedin.com/in/himanshu-vinchhi}{LinkedIn \faLinkedinSquare}
+
+    \end{flushleft}
+    
+    \begin{flushright}
+    \MYhref{mailto:hjvinchhi@gmail.com}{hjvinchhi@gmail.com}\\
+    \MYhref{tel:+919727193884}{+91 9727193884}
+    \end{flushright}
+    \end{multicols}
+\end{center}
+
+%-----------CAREER SUMMARY-----------
+
+    \small{Full Stack developer with over \textbf{9 years} of hands-on experience in software design, development, and maintenance. Analytically inclined with a strong foundation in OOPS and design patterns. Competent with Angular, React and ASP.NET Web API (.net 6) with C\#. Expertise of handling database operations, query optimization using SQL Server. Experienced in various project phases from planning through completion with devOps operations of code merging and continuous integration. Well versed with Agile/Scrum development. Believes in continuous learning and continuous improvement.}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \vspace{10pt}
+    \small{\item{
+        \textbf{Client Side}{: Angular 11, React, TypeScript, JavaScript, RxJS, Karma, Jasmine, Redux, Chart.js, HTML 5, CSS 3, Sass, Bootstrap} \\
+        \vspace{2pt}
+        \textbf{Server Side}{: ASP .NET Core with C\# (.net 6), WCF, Protobuf, SignalR, Kafka, Struts 2 with Java} \\
+        \vspace{2pt}
+        \textbf{DBMS}{: SQL Server, PostgreSQL}\\
+        \vspace{2pt}
+        \textbf{DevOps}{: Git, Bitbucket, GitHub, Docker, TFS Builds, Jenkins, TeamCity, PowerShell scripting jobs for CI/CD}\\
+        \vspace{2pt}
+        \textbf{Observability}{: Prometheous, Grafana, Splunk, Splunk Dashboards, Jaeger }\\
+        \vspace{2pt}
+        \textbf{Productivity tools}{: Sourcegraph, Comby}\\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {Technical Lead - Full Stack Developer [Angular + .NET]}{Jan. 2022 - Present}
+      {Morgan Stanley [Payroll: Xoriant Solutions Pvt. Ltd.]}{Bangalore, Karnataka}
+      \vspace{2pt}
+      \resumeItemListStart
+        \resumeItem{Senior developer responsible for the development of web apps used in portfolio management. Handling multiple .NET 6 microservices along with UI applications in Angular 11}
+        \resumeItem{Active participation in architecture and design discussions.}
+        \resumeItem{Created various productivity tools as side projects for the team, which are widely used across the board.}
+    \resumeItemListEnd
+
+\vspace{4pt}
+
+    \resumeSubheading
+      {Senior Technical Lead - Full Stack Developer [React + .NET]}{Jun. 2021 - Jan. 2022}
+      {EY Global Delivery Services India LLP}{Bangalore, Karnataka}
+      \vspace{2pt}
+      \resumeItemListStart
+        \resumeItem{Lead developer for the e-governance project of Dubai government. Along with technical tasks for handling multiple microservices, formed agile team of 4 and executed desired deliverables.}
+    \resumeItemListEnd
+
+\vspace{4pt}
+
+    \resumeSubheading
+      {Technical Lead - Full Stack Developer [Angular + .NET]}{Jan. 2020 - Jun. 2021}
+      {CitiusTech Healthcare Technology Pvt. Ltd.}{Navi Mumbai, Maharashtra}
+      \vspace{2pt}
+      \resumeItemListStart
+        \resumeItem{Senior UI developer and involved in product development with designing, planning and estimation as well as providing status updates and walk-through to key project stakeholders. Highly involved in coding and design level decisions.}
+        \resumeItem{Played a key role in feasibility and impact analysis prior to approval of new features, code merging with continuous integration environment maintenance.}
+    \resumeItemListEnd
+
+\vspace{4pt}
+
+    \resumeSubheading
+      {Senior Software Engineer - Full Stack Developer [Angular + .NET]}{Nov. 2017 - Jan. 2020}
+      {Majesco software and solutions Pvt. Ltd.}{Navi Mumbai, Maharashtra}
+      \vspace{2pt}
+      \resumeItemListStart
+        \resumeItem{Worked as development lead and involved in project designing, planning.}
+        \resumeItem{Involved in application performance improvement.}
+        \resumeItem{Actively contributed in technical Interviews}
+    \resumeItemListEnd
+
+\vspace{4pt}
+
+    \resumeSubheading
+      {Software Engineer - Full Stack Developer [JavaScript + .NET + MS SQL Server]}{Jan. 2015 - Nov. 2017}
+      {Syntel Ltd.}{Navi Mumbai, Maharashtra}
+      \vspace{2pt}
+      \resumeItemListStart
+        \resumeItem{Developed fully functional grid for the project which was the key control for the application being used by every screen of the application having 560+ screen.}
+        \resumeItem{Worked in enhancements of existing and new systems.}
+        \resumeItem{Developed Windows and SQL jobs.}
+        \resumeItem{Involved in query optimization for application performance enhancement.}
+    \resumeItemListEnd
+
+\vspace{4pt}
+
+    \resumeSubheading
+      {Programmer - Full Stack Developer [JavaScript + Java + PostgreSQL]}{Aug. 2014 - Jan. 2015}
+      {Acty. System Pvt. Ltd.}{Mumbai, Maharashtra}
+      \vspace{2pt}
+      \resumeItemListStart
+        \resumeItem{Worked in enhancements of existing systems with Struts 2.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {LYDIA - Portfolio Management Web App by Morgan Stanley}{[Current Project]}
+        {}{}
+        \vspace{-8pt}
+        \resumeItemListStart
+            \resumeItem{Web application used by financial advisors to manage client portfolios, which allows to perform various form of trading to the user.}
+            \resumeItem{Worked on UI and API development for various screens and microservices.}
+            \resumeItem{Worked on Prometheus, Grafana dashboards along with logging and monitoring in Splunk dashboards.}
+            \resumeItem{Refactored critical microservices for better maintenance.}
+            \resumeItem{\textbf{Frontend} - Angular 11, RxJS, SASS and TypeScript.}
+            \resumeItem{\textbf{Backend} - .NET 6 (.NET Core), Protobuf, SignalR, MS SQL Server}
+         \resumeItemListEnd
+        \vspace{4pt}
+    \resumeSubheading
+        {IBM iConnect Access: Universal viewing and image exchange.}{}
+        {}{}
+        \vspace{-8pt}
+        \resumeItemListStart
+            \resumeItem{This is a true zero download web viewer for clinical data with diagnostic quality real-time collaboration capabilities.}
+            \resumeItem{Primarily worked on UI development of the product module – AI Viewer}
+            \resumeItem{Worked on product enhancement with complex scenarios to meet business requirements.}
+            \resumeItem{Refactored existing code to implement new requirements.}
+            \resumeItem{\textbf{Frontend} - Angular 8, SASS, RxJS, Chart.js and TypeScript}
+            \resumeItem{\textbf{Backend} - .NET Framework 4.8, Web sockets, MS SQL Server}
+         \resumeItemListEnd
+        \vspace{4pt}
+    \resumeSubheading
+        {Quote and Bind Application for Vehicle Insurance.}{}
+        {}{}
+        \vspace{-8pt}
+        \resumeItemListStart
+            \resumeItem{Web application to manage vehicle insurance quoting and binding of policy with payments. This is a rewrite of Legacy ASP.NET application. Application has transactional screen to quote coverage for vehicles based on user data submission.}
+            \resumeItem{Worked on complex scenarios to meet business requirements.}
+            \resumeItem{Worked in a team with 11 developers working parallel in the project.}
+            \resumeItem{Implemented design patterns for technical feasibility of the application.}
+            \resumeItem{Improved application performance with required changes in the application.}
+            \resumeItem{\textbf{Frontend} - Angular 4, SASS and TypeScript.}
+            \resumeItem{\textbf{Backend} - .NET Framework 4.6.1, MS SQL Server}
+         \resumeItemListEnd
+        \vspace{4pt}
+    \resumeSubheading
+        {Fully Functional Grid widget for an Application Rewrite.}{}
+        {}{}
+        \vspace{-8pt}
+        \resumeItemListStart
+            \resumeItem{Web application to manage tax compliance. This is a rewrite of a classic ASP application, had more than 560+ screens. This application had many transactional screens with critical reports.}
+            \resumeItem{Developed a grid widget for developers to work on the application with ease.}
+            \resumeItem{This widget worked as an integral part of the application being used in 560+ screens.}
+            \resumeItem{This plugin was generic to be used in any screen to load the data and perform any grid related operations on it.}
+            \resumeItem{\textbf{Frontend} - JavaScript, jQuery }
+            \resumeItem{\textbf{Backend} - .NET Framework 4.5, MS SQL Server}
+         \resumeItemListEnd
+        \vspace{4pt}
+    \resumeSubheading
+        {Query Optimizations.}{}
+        {}{}
+        \vspace{-8pt}
+        \resumeItemListStart
+            \resumeItem{Optimized stored procedures to ease the business process.}
+            \resumeItem{Worked on indexing data base tables for application performance improvements.}
+            \resumeItem{Optimized SQL jobs to improve scheduled jobs timings.}
+            \resumeItem{\textbf{Backend} - MS SQL Server}
+         \resumeItemListEnd
+        
+  \resumeSubHeadingListEnd
+
+%--------------Education--------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {B.E. in Computer Engineering}{Aug. 2010 - Jul. 2014}
+        {}{}
+        \vspace{-10pt}
+        \resumeItemListStart
+            \resumeItem{R.K. College of Engineering \& Technology, Rajkot [GTU] - 8.11 CGPA}
+         \resumeItemListEnd
+    \vspace{2pt}
+    \resumeSubheading
+        {H.S.C.}{Jun. 2008 - May. 2010}
+        {}{}
+        \vspace{-10pt}
+        \resumeItemListStart
+            \resumeItem{S.G. Dholakiya Memo. High School, Rajkot [GHSEB] - 67.20 \%}
+         \resumeItemListEnd
+    \vspace{2pt}
+    \resumeSubheading
+        {S.S.C.}{Jun. 2007 - May. 2008}
+        {}{}
+        \vspace{-10pt}
+        \resumeItemListStart
+            \resumeItem{S.N.D.T. High School, Jamkhambhalia [GSEB] - 77.78 \%}
+         \resumeItemListEnd
+         
+  \resumeSubHeadingListEnd
+
+\end{document}
